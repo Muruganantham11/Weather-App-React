@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
   return <div>
-    <p>hellow </p>
+    <p>hellow world</p>
   </div>;
 }
 
