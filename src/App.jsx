@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
   return <div>
-    <p>weather app<p/>
+    <p>weather<p/>
   </div>;
 }
 
