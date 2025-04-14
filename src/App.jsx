@@ -102,7 +102,7 @@ const App = () => {
         <div className="text-center mt-20 text-2xl">City Not Found</div>
       )}
 
-      {!isLoading && !cityNotFound && (
+      {!isLoading && !cityNotFound && !fetchError && (
         <WeatherDetails
           icon={icon}
           temprature={temprature}
