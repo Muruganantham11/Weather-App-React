@@ -75,9 +75,6 @@ const App = () => {
   (async () => await fetchItem())();
   }, [city]);
 
-  /*  useEffect(() => {
-    search();
-  }, [city]); */
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -88,7 +85,7 @@ const App = () => {
 
   return (
     <div className="bg-gray-200 w-120 min-h-140 rounded-2xl  mx-auto mt-7 p-4">
-      <Header title="Find Weather Of Your Location" />
+      <Header title="Weather App" />
       <SearchCity
         searchCity={searchCity}
         setSearchCity={setSearchCity}
