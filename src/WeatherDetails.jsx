@@ -35,12 +35,12 @@ const WeatherDetails = ({
         </div>
       </div>
       <div className="flex justify-between items-center">
-        <div className="ml-2">
+        <div className="ml-7 pb-3 mb-2">
           <img className="w-10 ml-2 mb-2" src={humidityPic} alt="humidity" />
           <div className="text-center">{humidity}%</div>
           <div className="text-slate-600">Humidity</div>
         </div>
-        <div className="mr-2">
+        <div className="mr-7 pb-3 mb-2">
           <img className="w-10 ml-6 mb-2" src={windSpeedPic} alt="wind"/>
           <div className="text-center">{windSpeed}km/h</div>
           <div className="text-slate-600">WindSpeed</div>
