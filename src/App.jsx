@@ -83,7 +83,7 @@ const App = () => {
   };
 
   return (
-    <div className="bg-gray-200 w-120 min-h-140 rounded-2xl  mx-auto mt-7 ">
+    <div className="bg-gray-200 w-120 min-h-140 rounded-2xl mx-auto mt-7">
       <Header title="Weather App" />
       <SearchCity
         searchCity={searchCity}
